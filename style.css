@@ -902,7 +902,7 @@ padding:10px 16px;
     max-width:1200px;
     margin:auto;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(min(100%, 420px),1fr));
     gap:35px;
 }
 
@@ -1796,4 +1796,47 @@ flex-wrap:wrap;
 
 }
 
+}
+
+/*=====================================
+   UPDATED PORTFOLIO PROJECTS & AI SKILLS
+======================================*/
+
+.ai-skills h3 i{
+    background:#8b5cf6;
+}
+
+.project-card{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+.project-description{
+    flex-grow:1;
+}
+
+.project-tech span{
+    line-height:1.5;
+}
+
+@media(max-width:480px){
+    .project-card{
+        padding:22px;
+    }
+
+    .project-title h3{
+        font-size:23px;
+        overflow-wrap:anywhere;
+    }
+
+    .project-header{
+        gap:12px;
+        align-items:flex-start;
+    }
+
+    .project-type{
+        font-size:12px;
+        padding:7px 12px;
+    }
 }
