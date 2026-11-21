@@ -824,35 +824,6 @@ grid-template-columns:1fr;
     border-color:#38bdf8;
 
 }
-
-/*===========================
-        ICON COLORS
-============================*/
-
-.programming h3 i{
-    background:#3b82f6;
-}
-
-.frameworks h3 i{
-    background:#8b5cf6;
-}
-
-.database h3 i{
-    background:#10b981;
-}
-
-.cloud h3 i{
-    background:#f97316;
-}
-
-.tools h3 i{
-    background:#ef4444;
-}
-
-.softskills h3 i{
-    background:#eab308;
-}
-
 /* ================= EXPERIENCE SECTION ================= */
 
 .experience-container {
@@ -903,6 +874,36 @@ grid-template-columns:1fr;
     margin-bottom: 10px;
     line-height: 1.6;
 }
+
+
+/*===========================
+        ICON COLORS
+============================*/
+
+.programming h3 i{
+    background:#3b82f6;
+}
+
+.frameworks h3 i{
+    background:#8b5cf6;
+}
+
+.database h3 i{
+    background:#10b981;
+}
+
+.cloud h3 i{
+    background:#f97316;
+}
+
+.tools h3 i{
+    background:#ef4444;
+}
+
+.softskills h3 i{
+    background:#eab308;
+}
+
 
 
 /*===========================
